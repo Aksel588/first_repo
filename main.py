@@ -1,11 +1,10 @@
-def print_number_info(num):
-    """
+num1 = int(input("Enter your first number: "))
+num2 = int(input("Enter your second number: "))
 
-
-    """
-    if (num % 2) == 0:
-        print("Entered number is even")
-    else:
-        print("Entered number is odd")
-
-
+num1 -= 5
+print("Result:", num1 + num2)
+print("Result:", num1 - num2)
+print("Result:", num1 / num2)
+print("Result:", num1 * num2)
+print("Result:", num1 ** num2)
+print("Result:", num1 // num2)
